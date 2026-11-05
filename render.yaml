@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: curative-letter-generator
-    runtime: static
-    buildCommand: echo "Static site, no build needed"
-    staticPublishPath: .
-    pullRequestPreviewsEnabled: false
